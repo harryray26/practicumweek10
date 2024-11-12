@@ -8,7 +8,6 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 import static javafx.scene.input.KeyEvent.KEY_PRESSED;
@@ -30,15 +29,15 @@ public class JavaFXApp extends Application {
     }
 
     protected int computeAdd (int number1, int number2) {
-        return 0;
+        return number1 + number2;
     }
 
     protected int computeMultiply (int number1, int number2) {
-        return 0;
+        return number1 * number2;
     }
 
     protected int computeDivide (int number1, int number2) {
-        return 0;
+        return number1 / number2;
     }
 
     private void compute (String operator) {
