@@ -27,15 +27,15 @@ public class JavaFXApp extends Application {
     private int getNumberFromTextField (TextField textField) {
         return Integer.parseInt (textField.getText ());
     }
-
+    // hier zullen we optellen
     protected int computeAdd (int number1, int number2) {
         return number1 + number2;
     }
-
+    // hier zullen we vermenigvuldigen
     protected int computeMultiply (int number1, int number2) {
         return number1 * number2;
     }
-
+    // hier zullen we delen
     protected int computeDivide (int number1, int number2) {
         return number1 / number2;
     }
